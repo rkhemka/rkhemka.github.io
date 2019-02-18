@@ -1,0 +1,385 @@
+body{
+    margin: 0px;
+}
+/* Styling for header*/
+.header{
+    position: relative;
+    background: lightblue;
+    width:100%;
+    margin: 0%;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.header a{
+    color: blue;
+}
+.header li:nth-child(1){
+    float: left;
+}
+.header li:nth-child(n+2){
+    float: right;
+    
+}
+.header ul{
+    text-decoration:none;
+    list-style:none;
+    
+}
+.header li{
+    display: inline;;
+}
+
+
+@media (min-width: 600px) { 
+    .header{
+        position: relative;
+        background: lightblue;
+        width:100%;
+        margin: 0%;
+        float: right;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    .header a{
+        color: blue;
+    }
+    .header li:nth-child(1){
+        float: left;
+    }
+    .header li:nth-child(n+2){
+        float: right;
+        
+    }
+    .header ul{
+        text-decoration:none;
+        list-style:none;
+        
+    }
+    .header li{
+        display: inline;;
+    }
+
+
+}
+/* Global Style */
+a{
+    text-decoration:none;
+    color:black;;
+}
+.container{
+    width: 90%;
+    margin:auto;
+    overflow:hidden;
+}
+.saffKarkeAA{
+    clear: both;
+}
+
+/*My Introduction */
+.myDescriptonContainer{
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+  } 
+.rajatImage {
+    margin:auto;
+}
+.rajatInfo {   
+    padding-left: 25px;    
+ }
+.rajatInfo p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:  1.6em;
+}
+.rajatInfo i{
+    color:gray;
+}
+@media (min-width: 900px) {
+.myDescriptonContainer{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+  
+}
+.rajatImage {
+   width: 340px; 
+   height: 450px; 
+   margin:auto; 
+}
+.rajatInfo {
+    flex: 1;
+    display: flex;
+    padding-left: 25px;
+}
+.rajatInfo p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:  2.4em;
+}
+}
+
+/* To Display Section Header like Work Ex, Skill and Education */
+.markup{
+    border-top: 2px solid lightgray; 
+    border-bottom: 2px solid lightgray; 
+    padding:15px; 
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Work Experience*/
+
+
+.container{
+    width: 90%;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+
+
+.form-row {
+    padding-top: 15px;   
+    
+}
+.workExInfo{
+      
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:  3.2em;
+    left: 105px;
+}
+    .kaunsiPosition{
+       
+        
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .kitnaTime{
+      
+        font-size: 20px;
+        font-weight: bold;
+    }
+      
+.workExpImages{
+        width: 200px; 
+        height: 200px;
+    } 
+.role{
+        font-size: 20px;
+        color:gray;
+        font-weight: bold;
+        font-style: italic;
+
+     
+}
+   
+
+
+
+
+@media (min-width: 900px) {  
+.form-row {
+    padding-top: 15px;   
+    display: flex;
+    position: relative;
+  }
+.role{
+    font-size: 20px;
+    color:gray;
+    font-weight: bold; 
+    font-style: italic;
+    position: absolute;
+    left: 220px;
+    top:0px;
+    padding-top: 10px;
+}
+.workExInfo ul{
+    padding-top: 35px;
+}
+.workExInfo{
+   
+    flex:1;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:  3.2em;
+    left: 105px;
+}
+.kaunsiPosition{
+    position: absolute;
+    left: 250px;
+    top:0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.kitnaTime{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.workExpImages{
+    width: 200px; 
+    height: 200px;
+} 
+}
+
+
+/* Skills*/
+.form-row11 {
+    padding: 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .form-row11 p {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+  
+  .form-row11 space1 {
+    padding-top: 17px; 
+    padding-left: 15px; 
+    
+  }
+@media (min-width: 900px) { 
+.form-row11 {
+    padding: 10px 0;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .form-row11 p {
+    padding-right: 10px;
+    flex: 1;
+    font-weight: bold;
+    
+  }
+  
+  .form-row11 space1 {
+    padding-top: 17px; 
+    padding-left: 15px; 
+    flex: 1;
+  }
+}
+/* Education */
+.form-row112 {
+    padding: 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .form-row112 p {
+    padding-right: 10px;
+    
+  }
+  
+  .form-row112 space1 {
+    padding-top: 17px; 
+    padding-left: 15px; 
+    
+  }
+@media (min-width: 900px) { 
+.form-row112 {
+    padding: 10px 0;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .form-row112 p {
+    padding-right: 10px;
+    flex: 1;
+    
+    
+  }
+  
+  .form-row112 space1 {
+    padding-top: 17px; 
+    padding-left: 15px; 
+    flex: 1;
+  }
+}
+
+
+ /* Footer */
+
+ .footer{
+    position: relative;
+    background: lightblue;
+    width: 100%;
+    margin: 0%;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+
+}
+footer li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.4em;
+    
+}
+.footer li:nth-child(1){
+    font-size: 15px;    
+}
+.footer li:nth-child(2){
+    font-size: 20px;
+
+}
+.footer li:nth-child(3){
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;
+    line-height: 2.1em;
+}
+.footer li:nth-child(4){
+    text-align: right;
+    font-size: 15px; 
+    color:white;
+}
+
+ @media (min-width: 900px) { 
+ .footer{
+    position: relative;
+    background: lightblue;
+    width:100%;
+    margin: 0%;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+
+}
+footer li{
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer li:nth-child(1){
+    font-size: 20px;    
+}
+.footer li:nth-child(2){
+    font-size: 30px;    
+}
+.footer li:nth-child(3){
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 2.1em;
+}
+.footer li:nth-child(4){
+    text-align: right;
+    font-size: 20px; 
+    color:white;
+}
+}
