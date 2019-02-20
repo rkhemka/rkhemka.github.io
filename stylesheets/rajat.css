@@ -34,7 +34,17 @@ body {
 .header li {
   display: inline;
 }
+position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
 @media (min-width: 600px) {
   .header {
     position: relative;
