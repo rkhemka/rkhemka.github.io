@@ -1,71 +1,82 @@
 body{
+    left: 0;
+    top: 0;
     margin: 0px;
-}
-/* Styling for header*/
-.header{
-    position: relative;
+    padding: 0px;
+  }
+  .navbar { 
+    position: fixed;
     background: lightblue;
-    width:100%;
-    margin: 0%;
-    float: right;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
     font-weight: bold;
-    
-}
-.header a{
-    color: blue;
-}
-.header li:nth-child(1){
+  }
+  
+  .navbar a {
+     color: blue;
+  }
+  .navbar li:nth-child(1) {
     float: left;
-}
-.header li:nth-child(n+2){
+  }
+  
+  .navbar li:nth-child(n + 2) {
     float: right;
+  }
+  
+  .navbar ul {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
     
-}
-.header ul{
-    text-decoration:none;
-    list-style:none;
+
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  @media (min-width: 600px) {
+    .navbar { 
+      position: fixed;
+      background: lightblue;
+      width: 100%;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 26px;
+      font-weight: bold;
+    }
     
-}
-.header li{
-    display: inline;;
-}
-
-
-@media (min-width: 600px) { 
-    .header{
-        position: relative;
-        background: lightblue;
-        width:100%;
-        margin: 0%;
-        float: right;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 25px;
-        font-weight: bold;
-        
+    .navbar a {
+       color: blue;
     }
-    .header a{
-        color: blue;
+    .navbar li:nth-child(1) {
+      float: left;
     }
-    .header li:nth-child(1){
-        float: left;
+    
+    .navbar li:nth-child(n + 2) {
+      float: right;
     }
-    .header li:nth-child(n+2){
-        float: right;
-        
+    
+    .navbar ul {
+      text-decoration: none;
+      list-style: none;
     }
-    .header ul{
-        text-decoration:none;
-        list-style:none;
-        
+    
+    .navbar li {
+      display: inline;
     }
-    .header li{
-        display: inline;;
-    }
-
-
-}
+    
+  }
+  
 /* Global Style */
 a{
     text-decoration:none;

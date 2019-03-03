@@ -1,17 +1,52 @@
-body {
+body{
+  left: 0;
+  top: 0;
   margin: 0px;
+  padding: 0px;
+}
+.navbar { 
+  position: fixed;
+  background: lightblue;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navbar a {
+   color: blue;
+}
+.navbar li:nth-child(1) {
+  float: left;
+}
+
+.navbar li:nth-child(n + 2) {
+  float: right;
+}
+
+.navbar ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
 }
 
 /* Styling for header*/
 .header {
-  position: relative;
+  position: fixed;
   background: lightblue;
   width: 100%;
-  margin: 0%;
-  float: right;
+  top: 0;
+  left: 0;
   font-family: "Times New Roman", Times, serif;
   font-size: 13px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .header a {
@@ -46,32 +81,38 @@ position */
   padding-top: 102px;
 }
 @media (min-width: 600px) {
-  .header {
-    position: relative;
+  .navbar { 
+    position: fixed;
     background: lightblue;
     width: 100%;
-    margin: 0%;
-    float: right;
+    z-index: 1;
+    top: 0;
+    left: 0;
     font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
   }
-  .header a {
-    color: blue;
+  
+  .navbar a {
+     color: blue;
   }
-  .header li:nth-child(1) {
+  .navbar li:nth-child(1) {
     float: left;
   }
-  .header li:nth-child(n + 2) {
+  
+  .navbar li:nth-child(n + 2) {
     float: right;
   }
-  .header ul {
+  
+  .navbar ul {
     text-decoration: none;
     list-style: none;
   }
-  .header li {
+  
+  .navbar li {
     display: inline;
   }
+  
 }
 
 /* Global Style */
@@ -84,6 +125,14 @@ a {
   width: 90%;
   margin: auto;
   overflow: hidden;
+}
+/* To Display Section Header like Work Ex, Skill and Education */
+.markup{
+  border-top: 2px solid lightgray; 
+  border-bottom: 2px solid lightgray; 
+  padding:15px; 
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .ATRI {
   color: #ff004e94;
@@ -205,6 +254,13 @@ a {
   padding: 12px;
   font-family: "Times New Roman", Times, serif;
   font-size: 22px;
+}
+.qoute{
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 17px;
+  position: relative;
+  left: 70px
 }
 /* Footer */
 .footer {
