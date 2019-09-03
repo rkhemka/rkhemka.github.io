@@ -1,10 +1,11 @@
-body{
+body {
   left: 0;
   top: 0;
   margin: 0px;
   padding: 0px;
 }
-.navbar { 
+
+.navbar {
   position: fixed;
   background: lightblue;
   width: 100%;
@@ -17,8 +18,9 @@ body{
 }
 
 .navbar a {
-   color: blue;
+  color: blue;
 }
+
 .navbar li:nth-child(1) {
   float: left;
 }
@@ -37,6 +39,7 @@ body{
 }
 
 /* Styling for header*/
+
 .header {
   position: fixed;
   background: lightblue;
@@ -69,19 +72,21 @@ body{
 .header li {
   display: inline;
 }
-position */
-.sticky {
+
+position */ .sticky {
   position: fixed;
   top: 0;
   width: 100%
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+
+.sticky+.content {
   padding-top: 102px;
 }
+
 @media (min-width: 600px) {
-  .navbar { 
+  .navbar {
     position: fixed;
     background: lightblue;
     width: 100%;
@@ -92,30 +97,26 @@ position */
     font-size: 26px;
     font-weight: bold;
   }
-  
   .navbar a {
-     color: blue;
+    color: blue;
   }
   .navbar li:nth-child(1) {
     float: left;
   }
-  
   .navbar li:nth-child(n + 2) {
     float: right;
   }
-  
   .navbar ul {
     text-decoration: none;
     list-style: none;
   }
-  
   .navbar li {
     display: inline;
   }
-  
 }
 
 /* Global Style */
+
 a {
   text-decoration: none;
   color: black;
@@ -126,18 +127,23 @@ a {
   margin: auto;
   overflow: hidden;
 }
+
 /* To Display Section Header like Work Ex, Skill and Education */
-.markup{
-  border-top: 2px solid lightgray; 
-  border-bottom: 2px solid lightgray; 
-  padding:15px; 
+
+.markup {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  padding: 15px;
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .ATRI {
   color: #ff004e94;
 }
+
 /* Introduction Image and Text */
+
 #showcase {
   background-image: url("../images/ima.jpg");
   background-position: center right;
@@ -153,6 +159,7 @@ a {
 }
 
 /* Container with images and project description */
+
 .blockimages {
   width: 300px;
   height: 250px;
@@ -230,6 +237,7 @@ a {
 }
 
 */
+
 @media (min-width: 900px) {
   .project-container {
     display: flex;
@@ -243,10 +251,12 @@ a {
     height: 200px;
   }
 }
+
 .questionForContact {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
+
 .ButtonOfQuestionForContact {
   border-radius: 50%;
   color: black;
@@ -255,14 +265,17 @@ a {
   font-family: "Times New Roman", Times, serif;
   font-size: 22px;
 }
-.qoute{
+
+.qoute {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-size: 25px;
   position: relative;
   left: 70px
 }
+
 /* Footer */
+
 .footer {
   position: relative;
   background: lightblue;
