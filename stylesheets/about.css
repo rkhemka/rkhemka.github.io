@@ -211,7 +211,7 @@ a{
     font-weight: bold; 
     font-style: italic;
     position: absolute;
-    left: 220px;
+    left: 225px;
     top:0px;
     padding-top: 10px;
 }
@@ -228,7 +228,7 @@ a{
 }
 .kaunsiPosition{
     position: absolute;
-    left: 250px;
+    left: 225px;
     top:0px;
     font-size: 20px;
     font-weight: bold;
